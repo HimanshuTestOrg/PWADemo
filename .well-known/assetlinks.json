@@ -3,6 +3,6 @@
       "target": {
         "namespace": "android_app",
         "package_name": "io.github.himanshutestorg.twa",
-        "sha256_cert_fingerprints": ["12:E5:78:8A:79:50:FC:A1:04:A5:10:60:CB:8D:45:C7:92:73:75:E5:D1:1B:F4:53:48:80:E7:6C:DD:8B:1B:5E"]
+        "sha256_cert_fingerprints": ["D9:FF:8C:3D:1F:48:F1:60:FB:06:F1:B5:95:3E:92:57:E0:E3:08:E9:8D:0F:74:3B:6D:DD:02:A7:20:9A:5D:1E"]
       }
     }]
