@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>PWA Starter</title>
 
-    <base href="/PWADemo" />
+    <base href="/" />
 
     <!-- This meta viewport ensures the webpage's dimensions change according to the device it's on. This is called Responsive Web Design.-->
     <meta
@@ -33,10 +33,10 @@
     <meta name="pwa-starter-template-identity" content="pwa-starter" />
 
     <!-- Imports an icon to represent the document. -->
-    <link rel="icon" href="/PWADemo/assets/icons/icon_24.png" type="image/png" />
+    <link rel="icon" href="/assets/icons/icon_24.png" type="image/png" />
 
     <!-- Imports the manifest to represent the web application. A web app must have a manifest to be a PWA. -->
-    <link rel="manifest" href="/PWADemo/manifest.json" />
+    <link rel="manifest" href="./manifest.json" />
 
     <!-- light mode and dark mode CSS -->
     <link
@@ -51,8 +51,8 @@
       onload="document.documentElement.classList.add('sl-theme-dark');"
     />
 
-    <script type="module" crossorigin src="/PWADemo/code/index-jNoTr7Jd.js"></script>
-    <link rel="stylesheet" crossorigin href="/PWADemo/code/index-BOOyvc3G.css">
+    <script type="module" crossorigin src="/code/index-Cc7-6aHl.js"></script>
+    <link rel="stylesheet" crossorigin href="/code/index-BOOyvc3G.css">
   </head>
 
   <body>
@@ -62,7 +62,7 @@
     <script>
       if ('serviceWorker' in navigator) {
         window.onload = () => {
-          navigator.serviceWorker.register('/PWADemo/sw.js');
+          navigator.serviceWorker.register('./sw.js');
         };
       }
     </script>
